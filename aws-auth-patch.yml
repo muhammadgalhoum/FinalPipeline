@@ -4,7 +4,7 @@ data:
     - groups:
       - system:bootstrappers
       - system:nodes
-      rolearn: arn:aws:iam::536677315951:role/eksctl-eksctl-demo1-nodegroup-ng-NodeInstanceRole-6IPRWOR4EOHW
+      rolearn: arn:aws:iam::536677315951:role/eksctl-eksctl-demo-nodegroup-ng-NodeInstanceRole-6IPRWOR4EOHW
       username: system:node:{{EC2PrivateDNSName}}
     - groups:
       - system:masters
