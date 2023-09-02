@@ -1,6 +1,6 @@
 # Purpose of This Repo
 
-This repos has a sample "Hello World" flask application that we will deploy on EKS cluster using the AWS Codebuild and Codepipeline services. 
+This repos has a sample "Hello World" flask application that we will deploy on EKS cluster using the AWS Codebuild and Codepipeline services.
 Here is the purpose of each file present in this repo:
 
 ```bash
@@ -22,7 +22,6 @@ The steps you will follow are:
 1. **Create an EKS Cluster, IAM Role for CodeBuild, and Authenticate the CodeBuild**
 
 You will start with creating an EKS cluster in your preferred region, using `eksctl` command. Then, you will create an IAM role that the Codebuild will assume to access your k8s/EKS cluster. This IAM role will have the necessary access permissions (attached JSON policies), and you will also have to add this role to the k8s cluster's configMap.
-
 2. **Deployment to Kubernetes using CodePipeline and CodeBuild**
 
 - **Generate a Github access token**
